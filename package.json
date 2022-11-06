@@ -1,0 +1,15 @@
+{
+  "name": "challenge 2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:dist/css"
+  },
+  "author": "iedeji",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "bootstrap": "^5.2.2"
+  }
+}

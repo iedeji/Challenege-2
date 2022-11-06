@@ -1,0 +1,94 @@
+body{
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    font-size: 15px;
+}
+
+h1,p{
+    margin: 30px 0;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+button{
+    margin: 20px 0 0;
+}
+
+p{
+    line-height: 2;
+}
+
+p,.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.btn{
+    font-size: 15px;
+    margin: 50px 0 0;
+}
+
+
+.cardCustom{
+    height: 80vh;
+}
+
+.showcase{
+    width: 71%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10vh auto 0;
+}
+
+.contain{
+    width: 70%;
+    margin: auto;
+}
+
+@media (max-width: 375px) {
+    body {
+        font-size: 10px;
+        height: 40vh;
+    }
+
+    img {
+        width: 35px;
+        margin: 15px 0 0;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin: 5px 0;
+    }
+
+    p,.btn{
+        margin: 7px 0 0;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+
+    .cardCustom {
+        height: 33vh;
+    }
+    .showcase {
+        width: 57%;
+        margin: 1vh auto 0;
+    }
+    .contain{
+        width: 80%;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+}
